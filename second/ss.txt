@@ -1,0 +1,2439 @@
+	.file	"main.cpp"
+	.text
+	.section	.text._ZNSt6chronoltIlSt5ratioILl1ELl1000000000EElS2_EEbRKNS_8durationIT_T0_EERKNS3_IT1_T2_EE,"axG",@progbits,_ZNSt6chronoltIlSt5ratioILl1ELl1000000000EElS2_EEbRKNS_8durationIT_T0_EERKNS3_IT1_T2_EE,comdat
+	.weak	_ZNSt6chronoltIlSt5ratioILl1ELl1000000000EElS2_EEbRKNS_8durationIT_T0_EERKNS3_IT1_T2_EE
+	.type	_ZNSt6chronoltIlSt5ratioILl1ELl1000000000EElS2_EEbRKNS_8durationIT_T0_EERKNS3_IT1_T2_EE, @function
+_ZNSt6chronoltIlSt5ratioILl1ELl1000000000EElS2_EEbRKNS_8durationIT_T0_EERKNS3_IT1_T2_EE:
+.LFB310:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	pushq	%rbx
+	subq	$56, %rsp
+	.cfi_offset 3, -24
+	movq	%rdi, -56(%rbp)
+	movq	%rsi, -64(%rbp)
+	movq	%fs:40, %rax
+	movq	%rax, -24(%rbp)
+	xorl	%eax, %eax
+	movq	-56(%rbp), %rax
+	movq	(%rax), %rax
+	movq	%rax, -40(%rbp)
+	leaq	-40(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000000EEE5countEv
+	movq	%rax, %rbx
+	movq	-64(%rbp), %rax
+	movq	(%rax), %rax
+	movq	%rax, -32(%rbp)
+	leaq	-32(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000000EEE5countEv
+	cmpq	%rax, %rbx
+	setl	%al
+	movq	-24(%rbp), %rdx
+	subq	%fs:40, %rdx
+	je	.L3
+	call	__stack_chk_fail@PLT
+.L3:
+	movq	-8(%rbp), %rbx
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE310:
+	.size	_ZNSt6chronoltIlSt5ratioILl1ELl1000000000EElS2_EEbRKNS_8durationIT_T0_EERKNS3_IT1_T2_EE, .-_ZNSt6chronoltIlSt5ratioILl1ELl1000000000EElS2_EEbRKNS_8durationIT_T0_EERKNS3_IT1_T2_EE
+	.section	.text._ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC2IlvEERKT_,"axG",@progbits,_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC5IlvEERKT_,comdat
+	.align 2
+	.weak	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC2IlvEERKT_
+	.type	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC2IlvEERKT_, @function
+_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC2IlvEERKT_:
+.LFB315:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-16(%rbp), %rax
+	movq	(%rax), %rdx
+	movq	-8(%rbp), %rax
+	movq	%rdx, (%rax)
+	nop
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE315:
+	.size	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC2IlvEERKT_, .-_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC2IlvEERKT_
+	.weak	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC1IlvEERKT_
+	.set	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC1IlvEERKT_,_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC2IlvEERKT_
+	.section	.text._ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000000EEE5countEv,"axG",@progbits,_ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000000EEE5countEv,comdat
+	.align 2
+	.weak	_ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000000EEE5countEv
+	.type	_ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000000EEE5countEv, @function
+_ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000000EEE5countEv:
+.LFB318:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	(%rax), %rax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE318:
+	.size	_ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000000EEE5countEv, .-_ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000000EEE5countEv
+	.section	.text._ZNSt6chrono3_V212system_clock9to_time_tERKNS_10time_pointIS1_NS_8durationIlSt5ratioILl1ELl1000000000EEEEEE,"axG",@progbits,_ZNSt6chrono3_V212system_clock9to_time_tERKNS_10time_pointIS1_NS_8durationIlSt5ratioILl1ELl1000000000EEEEEE,comdat
+	.weak	_ZNSt6chrono3_V212system_clock9to_time_tERKNS_10time_pointIS1_NS_8durationIlSt5ratioILl1ELl1000000000EEEEEE
+	.type	_ZNSt6chrono3_V212system_clock9to_time_tERKNS_10time_pointIS1_NS_8durationIlSt5ratioILl1ELl1000000000EEEEEE, @function
+_ZNSt6chrono3_V212system_clock9to_time_tERKNS_10time_pointIS1_NS_8durationIlSt5ratioILl1ELl1000000000EEEEEE:
+.LFB319:
+	.cfi_startproc
+	.cfi_personality 0x9b,DW.ref.__gxx_personality_v0
+	.cfi_lsda 0x1b,.LLSDA319
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$48, %rsp
+	movq	%rdi, -40(%rbp)
+	movq	%fs:40, %rax
+	movq	%rax, -8(%rbp)
+	xorl	%eax, %eax
+	movq	-40(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv
+	movq	%rax, -24(%rbp)
+	leaq	-24(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1EEEElS2_ILl1ELl1000000000EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE
+	movq	%rax, -16(%rbp)
+	leaq	-16(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono8durationIlSt5ratioILl1ELl1EEE5countEv
+	movq	-8(%rbp), %rdx
+	subq	%fs:40, %rdx
+	je	.L9
+	call	__stack_chk_fail@PLT
+.L9:
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE319:
+	.section	.gcc_except_table._ZNSt6chrono3_V212system_clock9to_time_tERKNS_10time_pointIS1_NS_8durationIlSt5ratioILl1ELl1000000000EEEEEE,"aG",@progbits,_ZNSt6chrono3_V212system_clock9to_time_tERKNS_10time_pointIS1_NS_8durationIlSt5ratioILl1ELl1000000000EEEEEE,comdat
+.LLSDA319:
+	.byte	0xff
+	.byte	0xff
+	.byte	0x1
+	.uleb128 .LLSDACSE319-.LLSDACSB319
+.LLSDACSB319:
+.LLSDACSE319:
+	.section	.text._ZNSt6chrono3_V212system_clock9to_time_tERKNS_10time_pointIS1_NS_8durationIlSt5ratioILl1ELl1000000000EEEEEE,"axG",@progbits,_ZNSt6chrono3_V212system_clock9to_time_tERKNS_10time_pointIS1_NS_8durationIlSt5ratioILl1ELl1000000000EEEEEE,comdat
+	.size	_ZNSt6chrono3_V212system_clock9to_time_tERKNS_10time_pointIS1_NS_8durationIlSt5ratioILl1ELl1000000000EEEEEE, .-_ZNSt6chrono3_V212system_clock9to_time_tERKNS_10time_pointIS1_NS_8durationIlSt5ratioILl1ELl1000000000EEEEEE
+	.section	.text._ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC2IlvEERKT_,"axG",@progbits,_ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC5IlvEERKT_,comdat
+	.align 2
+	.weak	_ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC2IlvEERKT_
+	.type	_ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC2IlvEERKT_, @function
+_ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC2IlvEERKT_:
+.LFB336:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-16(%rbp), %rax
+	movq	(%rax), %rdx
+	movq	-8(%rbp), %rax
+	movq	%rdx, (%rax)
+	nop
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE336:
+	.size	_ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC2IlvEERKT_, .-_ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC2IlvEERKT_
+	.weak	_ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC1IlvEERKT_
+	.set	_ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC1IlvEERKT_,_ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC2IlvEERKT_
+	.section	.text._ZNSt11char_traitsIcE6lengthEPKc,"axG",@progbits,_ZNSt11char_traitsIcE6lengthEPKc,comdat
+	.weak	_ZNSt11char_traitsIcE6lengthEPKc
+	.type	_ZNSt11char_traitsIcE6lengthEPKc, @function
+_ZNSt11char_traitsIcE6lengthEPKc:
+.LFB417:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movl	$0, %eax
+	testb	%al, %al
+	je	.L13
+	movq	-8(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZN9__gnu_cxx11char_traitsIcE6lengthEPKc
+	jmp	.L14
+.L13:
+	movq	-8(%rbp), %rax
+	movq	%rax, %rdi
+	call	strlen@PLT
+	nop
+.L14:
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE417:
+	.size	_ZNSt11char_traitsIcE6lengthEPKc, .-_ZNSt11char_traitsIcE6lengthEPKc
+	.section	.text._ZStorSt12_Ios_IostateS_,"axG",@progbits,_ZStorSt12_Ios_IostateS_,comdat
+	.weak	_ZStorSt12_Ios_IostateS_
+	.type	_ZStorSt12_Ios_IostateS_, @function
+_ZStorSt12_Ios_IostateS_:
+.LFB1937:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movl	%edi, -4(%rbp)
+	movl	%esi, -8(%rbp)
+	movl	-4(%rbp), %eax
+	orl	-8(%rbp), %eax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE1937:
+	.size	_ZStorSt12_Ios_IostateS_, .-_ZStorSt12_Ios_IostateS_
+	.section	.text._ZStoRRSt12_Ios_IostateS_,"axG",@progbits,_ZStoRRSt12_Ios_IostateS_,comdat
+	.weak	_ZStoRRSt12_Ios_IostateS_
+	.type	_ZStoRRSt12_Ios_IostateS_, @function
+_ZStoRRSt12_Ios_IostateS_:
+.LFB1940:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movl	%esi, -12(%rbp)
+	movq	-8(%rbp), %rax
+	movl	(%rax), %eax
+	movl	-12(%rbp), %edx
+	movl	%edx, %esi
+	movl	%eax, %edi
+	call	_ZStorSt12_Ios_IostateS_
+	movq	-8(%rbp), %rdx
+	movl	%eax, (%rdx)
+	movq	-8(%rbp), %rax
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE1940:
+	.size	_ZStoRRSt12_Ios_IostateS_, .-_ZStoRRSt12_Ios_IostateS_
+	.section	.text._ZNKSt8ios_base6getlocEv,"axG",@progbits,_ZNKSt8ios_base6getlocEv,comdat
+	.align 2
+	.weak	_ZNKSt8ios_base6getlocEv
+	.type	_ZNKSt8ios_base6getlocEv, @function
+_ZNKSt8ios_base6getlocEv:
+.LFB1962:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-16(%rbp), %rax
+	leaq	208(%rax), %rdx
+	movq	-8(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6localeC1ERKS_@PLT
+	movq	-8(%rbp), %rax
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE1962:
+	.size	_ZNKSt8ios_base6getlocEv, .-_ZNKSt8ios_base6getlocEv
+	.section	.text._ZSt4setwi,"axG",@progbits,_ZSt4setwi,comdat
+	.weak	_ZSt4setwi
+	.type	_ZSt4setwi, @function
+_ZSt4setwi:
+.LFB2601:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movl	%edi, -4(%rbp)
+	movl	-4(%rbp), %eax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2601:
+	.size	_ZSt4setwi, .-_ZSt4setwi
+#APP
+	.globl _ZSt21ios_base_library_initv
+#NO_APP
+	.section	.text._ZStanSt12memory_orderSt23__memory_order_modifier,"axG",@progbits,_ZStanSt12memory_orderSt23__memory_order_modifier,comdat
+	.weak	_ZStanSt12memory_orderSt23__memory_order_modifier
+	.type	_ZStanSt12memory_orderSt23__memory_order_modifier, @function
+_ZStanSt12memory_orderSt23__memory_order_modifier:
+.LFB2728:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movl	%edi, -4(%rbp)
+	movl	%esi, -8(%rbp)
+	movl	-4(%rbp), %edx
+	movl	-8(%rbp), %eax
+	andl	%edx, %eax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2728:
+	.size	_ZStanSt12memory_orderSt23__memory_order_modifier, .-_ZStanSt12memory_orderSt23__memory_order_modifier
+	.section	.text._ZNSt6atomicIbEaSEb,"axG",@progbits,_ZNSt6atomicIbEaSEb,comdat
+	.align 2
+	.weak	_ZNSt6atomicIbEaSEb
+	.type	_ZNSt6atomicIbEaSEb, @function
+_ZNSt6atomicIbEaSEb:
+.LFB2833:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movl	%esi, %eax
+	movb	%al, -12(%rbp)
+	movq	-8(%rbp), %rax
+	movzbl	-12(%rbp), %edx
+	movl	%edx, %esi
+	movq	%rax, %rdi
+	call	_ZNSt13__atomic_baseIbEaSEb
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2833:
+	.size	_ZNSt6atomicIbEaSEb, .-_ZNSt6atomicIbEaSEb
+	.section	.text._ZNKSt6atomicIbEcvbEv,"axG",@progbits,_ZNKSt6atomicIbEcvbEv,comdat
+	.align 2
+	.weak	_ZNKSt6atomicIbEcvbEv
+	.type	_ZNKSt6atomicIbEcvbEv, @function
+_ZNKSt6atomicIbEcvbEv:
+.LFB2835:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$32, %rsp
+	movq	%rdi, -24(%rbp)
+	movq	-24(%rbp), %rax
+	movq	%rax, -8(%rbp)
+	movl	$5, -16(%rbp)
+	movl	-16(%rbp), %eax
+	movl	$65535, %esi
+	movl	%eax, %edi
+	call	_ZStanSt12memory_orderSt23__memory_order_modifier
+	movl	%eax, -12(%rbp)
+	movl	$0, %eax
+	testb	%al, %al
+	je	.L29
+	cmpl	$3, -12(%rbp)
+	sete	%al
+	movzbl	%al, %eax
+	testq	%rax, %rax
+.L29:
+	movl	$0, %eax
+	testb	%al, %al
+	je	.L31
+	cmpl	$4, -12(%rbp)
+	sete	%al
+	movzbl	%al, %eax
+	testq	%rax, %rax
+.L31:
+	movq	-8(%rbp), %rax
+	movzbl	(%rax), %eax
+	testb	%al, %al
+	setne	%al
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE2835:
+	.size	_ZNKSt6atomicIbEcvbEv, .-_ZNKSt6atomicIbEcvbEv
+	.globl	running_
+	.data
+	.type	running_, @object
+	.size	running_, 1
+running_:
+	.byte	1
+	.section	.text._ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv,"axG",@progbits,_ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv,comdat
+	.align 2
+	.weak	_ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv
+	.type	_ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv, @function
+_ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv:
+.LFB3009:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	(%rax), %rax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3009:
+	.size	_ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv, .-_ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv
+	.section	.rodata
+.LC0:
+	.string	"%Y-%m-%d %H:%M:%S"
+.LC1:
+	.string	"."
+.LC2:
+	.string	" UTC\n"
+	.text
+	.globl	_Z16PrintCurrentTimev
+	.type	_Z16PrintCurrentTimev, @function
+_Z16PrintCurrentTimev:
+.LFB3008:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	pushq	%rbx
+	subq	$120, %rsp
+	.cfi_offset 3, -24
+	movq	%fs:40, %rax
+	movq	%rax, -24(%rbp)
+	xorl	%eax, %eax
+	call	_ZNSt6chrono3_V212system_clock3nowEv@PLT
+	movq	%rax, -120(%rbp)
+	leaq	-120(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt6chrono3_V212system_clock9to_time_tERKNS_10time_pointIS1_NS_8durationIlSt5ratioILl1ELl1000000000EEEEEE
+	movq	%rax, -112(%rbp)
+	movl	$1, -124(%rbp)
+	leaq	-124(%rbp), %rdx
+	leaq	-80(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC1IivEERKT_
+	leaq	-120(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv
+	movq	%rax, -96(%rbp)
+	leaq	-96(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000EEEElS2_ILl1ELl1000000000EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE
+	movq	%rax, -88(%rbp)
+	leaq	-80(%rbp), %rdx
+	leaq	-88(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6chronormIlSt5ratioILl1ELl1000000EElS1_ILl1ELl1EEEENSt11common_typeIJNS_8durationIT_T0_EENS5_IT1_T2_EEEE4typeERKS8_RKSB_
+	movq	%rax, -104(%rbp)
+	leaq	-112(%rbp), %rax
+	movq	%rax, %rdi
+	call	gmtime@PLT
+	movq	(%rax), %rcx
+	movq	8(%rax), %rbx
+	movq	%rcx, -80(%rbp)
+	movq	%rbx, -72(%rbp)
+	movq	16(%rax), %rcx
+	movq	24(%rax), %rbx
+	movq	%rcx, -64(%rbp)
+	movq	%rbx, -56(%rbp)
+	movq	32(%rax), %rcx
+	movq	40(%rax), %rbx
+	movq	%rcx, -48(%rbp)
+	movq	%rbx, -40(%rbp)
+	movq	48(%rax), %rax
+	movq	%rax, -32(%rbp)
+	leaq	-80(%rbp), %rax
+	leaq	.LC0(%rip), %rdx
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZSt8put_timeIcESt9_Put_timeIT_EPK2tmPKS1_
+	movq	%rax, %rcx
+	movq	%rdx, %rax
+	movq	%rcx, %rsi
+	movq	%rax, %rdx
+	leaq	_ZSt4cout(%rip), %rax
+	movq	%rax, %rdi
+	call	_ZStlsIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_St9_Put_timeIS3_E
+	movq	%rax, %rdx
+	leaq	.LC1(%rip), %rax
+	movq	%rax, %rsi
+	movq	%rdx, %rdi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	movq	%rax, %rbx
+	movl	$6, %edi
+	call	_ZSt4setwi
+	movl	%eax, %esi
+	movq	%rbx, %rdi
+	call	_ZStlsIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_St5_Setw@PLT
+	movq	%rax, %rbx
+	movl	$48, %edi
+	call	_ZSt7setfillIcESt8_SetfillIT_ES1_
+	movl	%eax, %esi
+	movq	%rbx, %rdi
+	call	_ZStlsIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_St8_SetfillIS3_E@PLT
+	movq	%rax, %rbx
+	leaq	-104(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000EEE5countEv
+	movq	%rax, %rsi
+	movq	%rbx, %rdi
+	call	_ZNSolsEl@PLT
+	movq	%rax, %rdx
+	leaq	.LC2(%rip), %rax
+	movq	%rax, %rsi
+	movq	%rdx, %rdi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	nop
+	movq	-24(%rbp), %rax
+	subq	%fs:40, %rax
+	je	.L37
+	call	__stack_chk_fail@PLT
+.L37:
+	movq	-8(%rbp), %rbx
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3008:
+	.size	_Z16PrintCurrentTimev, .-_Z16PrintCurrentTimev
+	.section	.rodata
+.LC3:
+	.string	"start\n"
+	.text
+	.globl	_Z4taskv
+	.type	_Z4taskv, @function
+_Z4taskv:
+.LFB3010:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	leaq	.LC3(%rip), %rax
+	movq	%rax, %rsi
+	leaq	_ZSt4cout(%rip), %rax
+	movq	%rax, %rdi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	movq	$0, -8(%rbp)
+	jmp	.L39
+.L40:
+	addq	$1, -8(%rbp)
+.L39:
+	cmpq	$999, -8(%rbp)
+	jbe	.L40
+	nop
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3010:
+	.size	_Z4taskv, .-_Z4taskv
+	.section	.text._ZNSt6chronomiINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEES6_EENSt11common_typeIJT0_T1_EE4typeERKNS_10time_pointIT_S8_EERKNSC_ISD_S9_EE,"axG",@progbits,_ZNSt6chronomiINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEES6_EENSt11common_typeIJT0_T1_EE4typeERKNS_10time_pointIT_S8_EERKNSC_ISD_S9_EE,comdat
+	.weak	_ZNSt6chronomiINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEES6_EENSt11common_typeIJT0_T1_EE4typeERKNS_10time_pointIT_S8_EERKNSC_ISD_S9_EE
+	.type	_ZNSt6chronomiINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEES6_EENSt11common_typeIJT0_T1_EE4typeERKNS_10time_pointIT_S8_EERKNSC_ISD_S9_EE, @function
+_ZNSt6chronomiINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEES6_EENSt11common_typeIJT0_T1_EE4typeERKNS_10time_pointIT_S8_EERKNSC_ISD_S9_EE:
+.LFB3012:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$48, %rsp
+	movq	%rdi, -40(%rbp)
+	movq	%rsi, -48(%rbp)
+	movq	%fs:40, %rax
+	movq	%rax, -8(%rbp)
+	xorl	%eax, %eax
+	movq	-48(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv
+	movq	%rax, -16(%rbp)
+	movq	-40(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv
+	movq	%rax, -24(%rbp)
+	leaq	-16(%rbp), %rdx
+	leaq	-24(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6chronomiIlSt5ratioILl1ELl1000000000EElS2_EENSt11common_typeIJNS_8durationIT_T0_EENS4_IT1_T2_EEEE4typeERKS7_RKSA_
+	movq	-8(%rbp), %rdx
+	subq	%fs:40, %rdx
+	je	.L43
+	call	__stack_chk_fail@PLT
+.L43:
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3012:
+	.size	_ZNSt6chronomiINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEES6_EENSt11common_typeIJT0_T1_EE4typeERKNS_10time_pointIT_S8_EERKNSC_ISD_S9_EE, .-_ZNSt6chronomiINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEES6_EENSt11common_typeIJT0_T1_EE4typeERKNS_10time_pointIT_S8_EERKNSC_ISD_S9_EE
+	.section	.text._ZNSt6chrono15time_point_castINS_8durationIlSt5ratioILl1ELl1EEEENS_3_V212system_clockENS1_IlS2_ILl1ELl1000000000EEEEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueENS_10time_pointIT0_SB_EEE4typeERKNSD_ISE_T1_EE,"axG",@progbits,_ZNSt6chrono15time_point_castINS_8durationIlSt5ratioILl1ELl1EEEENS_3_V212system_clockENS1_IlS2_ILl1ELl1000000000EEEEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueENS_10time_pointIT0_SB_EEE4typeERKNSD_ISE_T1_EE,comdat
+	.weak	_ZNSt6chrono15time_point_castINS_8durationIlSt5ratioILl1ELl1EEEENS_3_V212system_clockENS1_IlS2_ILl1ELl1000000000EEEEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueENS_10time_pointIT0_SB_EEE4typeERKNSD_ISE_T1_EE
+	.type	_ZNSt6chrono15time_point_castINS_8durationIlSt5ratioILl1ELl1EEEENS_3_V212system_clockENS1_IlS2_ILl1ELl1000000000EEEEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueENS_10time_pointIT0_SB_EEE4typeERKNSD_ISE_T1_EE, @function
+_ZNSt6chrono15time_point_castINS_8durationIlSt5ratioILl1ELl1EEEENS_3_V212system_clockENS1_IlS2_ILl1ELl1000000000EEEEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueENS_10time_pointIT0_SB_EEE4typeERKNSD_ISE_T1_EE:
+.LFB3014:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$48, %rsp
+	movq	%rdi, -40(%rbp)
+	movq	%fs:40, %rax
+	movq	%rax, -8(%rbp)
+	xorl	%eax, %eax
+	movq	-40(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv
+	movq	%rax, -32(%rbp)
+	leaq	-32(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1EEEElS2_ILl1ELl1000000000EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE
+	movq	%rax, -24(%rbp)
+	leaq	-24(%rbp), %rdx
+	leaq	-16(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEEEC1ERKS6_
+	movq	-16(%rbp), %rax
+	movq	-8(%rbp), %rdx
+	subq	%fs:40, %rdx
+	je	.L46
+	call	__stack_chk_fail@PLT
+.L46:
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3014:
+	.size	_ZNSt6chrono15time_point_castINS_8durationIlSt5ratioILl1ELl1EEEENS_3_V212system_clockENS1_IlS2_ILl1ELl1000000000EEEEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueENS_10time_pointIT0_SB_EEE4typeERKNSD_ISE_T1_EE, .-_ZNSt6chrono15time_point_castINS_8durationIlSt5ratioILl1ELl1EEEENS_3_V212system_clockENS1_IlS2_ILl1ELl1000000000EEEEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueENS_10time_pointIT0_SB_EEE4typeERKNSD_ISE_T1_EE
+	.text
+	.globl	_Z33LoopEverySecondAlignedToWallClockv
+	.type	_Z33LoopEverySecondAlignedToWallClockv, @function
+_Z33LoopEverySecondAlignedToWallClockv:
+.LFB3011:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$96, %rsp
+	movq	%fs:40, %rax
+	movq	%rax, -8(%rbp)
+	xorl	%eax, %eax
+	call	_ZNSt6chrono3_V212system_clock3nowEv@PLT
+	movq	%rax, -88(%rbp)
+	call	_ZNSt6chrono3_V212steady_clock3nowEv@PLT
+	movq	%rax, -80(%rbp)
+	call	_ZNSt6chrono3_V212system_clock3nowEv@PLT
+	movq	%rax, -72(%rbp)
+	call	_ZNSt6chrono3_V212system_clock3nowEv@PLT
+	movq	%rax, -64(%rbp)
+	leaq	-72(%rbp), %rdx
+	leaq	-64(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6chronomiINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEES6_EENSt11common_typeIJT0_T1_EE4typeERKNS_10time_pointIT_S8_EERKNSC_ISD_S9_EE
+	movq	%rax, -56(%rbp)
+	leaq	-56(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000000EEE5countEv
+	leaq	-80(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono10time_pointINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv
+	movq	%rax, -24(%rbp)
+	leaq	-24(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000000EEEElS3_EENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES7_E4typeERKNS1_IT0_T1_EE
+	movq	%rax, -16(%rbp)
+	leaq	-88(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv
+	movq	%rax, -40(%rbp)
+	leaq	-40(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000000EEEElS3_EENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES7_E4typeERKNS1_IT0_T1_EE
+	movq	%rax, -32(%rbp)
+	leaq	-16(%rbp), %rdx
+	leaq	-32(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6chronomiIlSt5ratioILl1ELl1000000000EElS2_EENSt11common_typeIJNS_8durationIT_T0_EENS4_IT1_T2_EEEE4typeERKS7_RKSA_
+	movq	%rax, -48(%rbp)
+	movl	$1, -92(%rbp)
+	leaq	-92(%rbp), %rdx
+	leaq	-24(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC1IivEERKT_
+	leaq	-88(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt6chrono15time_point_castINS_8durationIlSt5ratioILl1ELl1EEEENS_3_V212system_clockENS1_IlS2_ILl1ELl1000000000EEEEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueENS_10time_pointIT0_SB_EEE4typeERKNSD_ISE_T1_EE
+	movq	%rax, -32(%rbp)
+	leaq	-24(%rbp), %rdx
+	leaq	-32(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6chronoplINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEElS5_EENS_10time_pointIT_NSt11common_typeIJT0_NS3_IT1_T2_EEEE4typeEEERKNS7_IS8_SA_EERKSD_
+	movq	%rax, -16(%rbp)
+	leaq	-16(%rbp), %rdx
+	leaq	-40(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEC1INS3_IlS4_ILl1ELl1EEEEvEERKNS0_IS2_T_EE
+	jmp	.L48
+.L50:
+	leaq	-40(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv
+	movq	%rax, -24(%rbp)
+	leaq	-48(%rbp), %rdx
+	leaq	-24(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6chronomiIlSt5ratioILl1ELl1000000000EElS2_EENSt11common_typeIJNS_8durationIT_T0_EENS4_IT1_T2_EEEE4typeERKS7_RKSA_
+	movq	%rax, -16(%rbp)
+	leaq	-16(%rbp), %rdx
+	leaq	-32(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6chrono10time_pointINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEC1ERKS6_
+	nop
+.L49:
+	call	_ZNSt6chrono3_V212steady_clock3nowEv@PLT
+	movq	%rax, -16(%rbp)
+	leaq	-32(%rbp), %rdx
+	leaq	-16(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6chronoltINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEES6_EEbRKNS_10time_pointIT_T0_EERKNS7_IS8_T1_EE
+	testb	%al, %al
+	jne	.L49
+	call	_Z16PrintCurrentTimev
+	movl	$5, -92(%rbp)
+	leaq	-92(%rbp), %rdx
+	leaq	-24(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC1IivEERKT_
+	leaq	-24(%rbp), %rdx
+	leaq	-16(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC1IlS1_ILl1ELl1EEvEERKNS0_IT_T0_EE
+	leaq	-16(%rbp), %rdx
+	leaq	-40(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEpLERKS6_
+.L48:
+	leaq	running_(%rip), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6atomicIbEcvbEv
+	testb	%al, %al
+	jne	.L50
+	nop
+	movq	-8(%rbp), %rax
+	subq	%fs:40, %rax
+	je	.L51
+	call	__stack_chk_fail@PLT
+.L51:
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3011:
+	.size	_Z33LoopEverySecondAlignedToWallClockv, .-_Z33LoopEverySecondAlignedToWallClockv
+	.section	.rodata
+.LC4:
+	.string	"Signal caught: "
+.LC5:
+	.string	"\n"
+	.text
+	.globl	_Z4stopi
+	.type	_Z4stopi, @function
+_Z4stopi:
+.LFB3015:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movl	%edi, -4(%rbp)
+	leaq	.LC4(%rip), %rax
+	movq	%rax, %rsi
+	leaq	_ZSt4cout(%rip), %rax
+	movq	%rax, %rdi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	movq	%rax, %rdx
+	movl	-4(%rbp), %eax
+	movl	%eax, %esi
+	movq	%rdx, %rdi
+	call	_ZNSolsEi@PLT
+	movq	%rax, %rdx
+	leaq	.LC5(%rip), %rax
+	movq	%rax, %rsi
+	movq	%rdx, %rdi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	movl	$0, %esi
+	leaq	running_(%rip), %rax
+	movq	%rax, %rdi
+	call	_ZNSt6atomicIbEaSEb
+	nop
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3015:
+	.size	_Z4stopi, .-_Z4stopi
+	.section	.rodata
+.LC6:
+	.string	"Exited loop.\n"
+	.text
+	.globl	main
+	.type	main, @function
+main:
+.LFB3016:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	leaq	_Z4stopi(%rip), %rax
+	movq	%rax, %rsi
+	movl	$2, %edi
+	call	signal@PLT
+	call	_Z33LoopEverySecondAlignedToWallClockv
+	leaq	.LC6(%rip), %rax
+	movq	%rax, %rsi
+	leaq	_ZSt4cout(%rip), %rax
+	movq	%rax, %rdi
+	call	_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@PLT
+	movl	$0, %eax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3016:
+	.size	main, .-main
+	.section	.text._ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1EEEElS2_ILl1ELl1000000000EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE,"axG",@progbits,_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1EEEElS2_ILl1ELl1000000000EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE,comdat
+	.weak	_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1EEEElS2_ILl1ELl1000000000EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE
+	.type	_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1EEEElS2_ILl1ELl1000000000EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE, @function
+_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1EEEElS2_ILl1ELl1000000000EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE:
+.LFB3017:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1EEEES2_ILl1ELl1000000000EElLb1ELb0EE6__castIlS5_EES4_RKNS1_IT_T0_EE
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3017:
+	.size	_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1EEEElS2_ILl1ELl1000000000EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE, .-_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1EEEElS2_ILl1ELl1000000000EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE
+	.section	.text._ZNKSt6chrono8durationIlSt5ratioILl1ELl1EEE5countEv,"axG",@progbits,_ZNKSt6chrono8durationIlSt5ratioILl1ELl1EEE5countEv,comdat
+	.align 2
+	.weak	_ZNKSt6chrono8durationIlSt5ratioILl1ELl1EEE5countEv
+	.type	_ZNKSt6chrono8durationIlSt5ratioILl1ELl1EEE5countEv, @function
+_ZNKSt6chrono8durationIlSt5ratioILl1ELl1EEE5countEv:
+.LFB3019:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	(%rax), %rax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3019:
+	.size	_ZNKSt6chrono8durationIlSt5ratioILl1ELl1EEE5countEv, .-_ZNKSt6chrono8durationIlSt5ratioILl1ELl1EEE5countEv
+	.section	.text._ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEEEC2ERKS6_,"axG",@progbits,_ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEEEC5ERKS6_,comdat
+	.align 2
+	.weak	_ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEEEC2ERKS6_
+	.type	_ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEEEC2ERKS6_, @function
+_ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEEEC2ERKS6_:
+.LFB3021:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-8(%rbp), %rax
+	movq	-16(%rbp), %rdx
+	movq	(%rdx), %rdx
+	movq	%rdx, (%rax)
+	nop
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3021:
+	.size	_ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEEEC2ERKS6_, .-_ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEEEC2ERKS6_
+	.weak	_ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEEEC1ERKS6_
+	.set	_ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEEEC1ERKS6_,_ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEEEC2ERKS6_
+	.section	.text._ZN9__gnu_cxx11char_traitsIcE6lengthEPKc,"axG",@progbits,_ZN9__gnu_cxx11char_traitsIcE6lengthEPKc,comdat
+	.align 2
+	.weak	_ZN9__gnu_cxx11char_traitsIcE6lengthEPKc
+	.type	_ZN9__gnu_cxx11char_traitsIcE6lengthEPKc, @function
+_ZN9__gnu_cxx11char_traitsIcE6lengthEPKc:
+.LFB3043:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$48, %rsp
+	movq	%rdi, -40(%rbp)
+	movq	%fs:40, %rax
+	movq	%rax, -8(%rbp)
+	xorl	%eax, %eax
+	movq	$0, -16(%rbp)
+	jmp	.L61
+.L62:
+	addq	$1, -16(%rbp)
+.L61:
+	movb	$0, -17(%rbp)
+	movq	-40(%rbp), %rdx
+	movq	-16(%rbp), %rax
+	addq	%rax, %rdx
+	leaq	-17(%rbp), %rax
+	movq	%rax, %rsi
+	movq	%rdx, %rdi
+	call	_ZN9__gnu_cxx11char_traitsIcE2eqERKcS3_
+	xorl	$1, %eax
+	testb	%al, %al
+	jne	.L62
+	movq	-16(%rbp), %rax
+	movq	-8(%rbp), %rdx
+	subq	%fs:40, %rdx
+	je	.L64
+	call	__stack_chk_fail@PLT
+.L64:
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3043:
+	.size	_ZN9__gnu_cxx11char_traitsIcE6lengthEPKc, .-_ZN9__gnu_cxx11char_traitsIcE6lengthEPKc
+	.section	.text._ZNSt13__atomic_baseIbEaSEb,"axG",@progbits,_ZNSt13__atomic_baseIbEaSEb,comdat
+	.align 2
+	.weak	_ZNSt13__atomic_baseIbEaSEb
+	.type	_ZNSt13__atomic_baseIbEaSEb, @function
+_ZNSt13__atomic_baseIbEaSEb:
+.LFB3333:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$48, %rsp
+	movq	%rdi, -40(%rbp)
+	movl	%esi, %eax
+	movb	%al, -44(%rbp)
+	movzbl	-44(%rbp), %eax
+	movq	-40(%rbp), %rdx
+	movq	%rdx, -8(%rbp)
+	movb	%al, -17(%rbp)
+	andb	$1, -17(%rbp)
+	movl	$5, -16(%rbp)
+	movl	-16(%rbp), %eax
+	movl	$65535, %esi
+	movl	%eax, %edi
+	call	_ZStanSt12memory_orderSt23__memory_order_modifier
+	movl	%eax, -12(%rbp)
+	movl	$0, %eax
+	testb	%al, %al
+	je	.L67
+	cmpl	$2, -12(%rbp)
+	sete	%al
+	movzbl	%al, %eax
+	testq	%rax, %rax
+.L67:
+	movl	$0, %eax
+	testb	%al, %al
+	je	.L69
+	cmpl	$4, -12(%rbp)
+	sete	%al
+	movzbl	%al, %eax
+	testq	%rax, %rax
+.L69:
+	movl	$0, %eax
+	testb	%al, %al
+	je	.L71
+	cmpl	$1, -12(%rbp)
+	sete	%al
+	movzbl	%al, %eax
+	testq	%rax, %rax
+.L71:
+	movzbl	-17(%rbp), %edx
+	movq	-8(%rbp), %rax
+	xchgb	(%rax), %dl
+	nop
+	movzbl	-44(%rbp), %eax
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3333:
+	.size	_ZNSt13__atomic_baseIbEaSEb, .-_ZNSt13__atomic_baseIbEaSEb
+	.section	.text._ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000EEEElS2_ILl1ELl1000000000EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE,"axG",@progbits,_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000EEEElS2_ILl1ELl1000000000EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE,comdat
+	.weak	_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000EEEElS2_ILl1ELl1000000000EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE
+	.type	_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000EEEElS2_ILl1ELl1000000000EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE, @function
+_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000EEEElS2_ILl1ELl1000000000EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE:
+.LFB3393:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000EEEES2_ILl1ELl1000EElLb1ELb0EE6__castIlS2_ILl1ELl1000000000EEEES4_RKNS1_IT_T0_EE
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3393:
+	.size	_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000EEEElS2_ILl1ELl1000000000EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE, .-_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000EEEElS2_ILl1ELl1000000000EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE
+	.section	.text._ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC2IivEERKT_,"axG",@progbits,_ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC5IivEERKT_,comdat
+	.align 2
+	.weak	_ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC2IivEERKT_
+	.type	_ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC2IivEERKT_, @function
+_ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC2IivEERKT_:
+.LFB3396:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-16(%rbp), %rax
+	movl	(%rax), %eax
+	movslq	%eax, %rdx
+	movq	-8(%rbp), %rax
+	movq	%rdx, (%rax)
+	nop
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3396:
+	.size	_ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC2IivEERKT_, .-_ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC2IivEERKT_
+	.weak	_ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC1IivEERKT_
+	.set	_ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC1IivEERKT_,_ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC2IivEERKT_
+	.section	.text._ZNSt6chrono8durationIlSt5ratioILl1ELl1000000EEEC2IlS1_ILl1ELl1EEvEERKNS0_IT_T0_EE,"axG",@progbits,_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000EEEC5IlS1_ILl1ELl1EEvEERKNS0_IT_T0_EE,comdat
+	.align 2
+	.weak	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000EEEC2IlS1_ILl1ELl1EEvEERKNS0_IT_T0_EE
+	.type	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000EEEC2IlS1_ILl1ELl1EEvEERKNS0_IT_T0_EE, @function
+_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000EEEC2IlS1_ILl1ELl1EEvEERKNS0_IT_T0_EE:
+.LFB3401:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$32, %rsp
+	movq	%rdi, -24(%rbp)
+	movq	%rsi, -32(%rbp)
+	movq	%fs:40, %rax
+	movq	%rax, -8(%rbp)
+	xorl	%eax, %eax
+	movq	-32(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000EEEElS2_ILl1ELl1EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE
+	movq	%rax, -16(%rbp)
+	leaq	-16(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000EEE5countEv
+	movq	-24(%rbp), %rdx
+	movq	%rax, (%rdx)
+	nop
+	movq	-8(%rbp), %rax
+	subq	%fs:40, %rax
+	je	.L77
+	call	__stack_chk_fail@PLT
+.L77:
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3401:
+	.size	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000EEEC2IlS1_ILl1ELl1EEvEERKNS0_IT_T0_EE, .-_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000EEEC2IlS1_ILl1ELl1EEvEERKNS0_IT_T0_EE
+	.weak	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000EEEC1IlS1_ILl1ELl1EEvEERKNS0_IT_T0_EE
+	.set	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000EEEC1IlS1_ILl1ELl1EEvEERKNS0_IT_T0_EE,_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000EEEC2IlS1_ILl1ELl1EEvEERKNS0_IT_T0_EE
+	.section	.text._ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000EEEElS2_ILl1ELl1EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE,"axG",@progbits,_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000EEEElS2_ILl1ELl1EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE,comdat
+	.weak	_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000EEEElS2_ILl1ELl1EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE
+	.type	_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000EEEElS2_ILl1ELl1EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE, @function
+_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000EEEElS2_ILl1ELl1EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE:
+.LFB3403:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000EEEES2_ILl1000000ELl1EElLb0ELb1EE6__castIlS2_ILl1ELl1EEEES4_RKNS1_IT_T0_EE
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3403:
+	.size	_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000EEEElS2_ILl1ELl1EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE, .-_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000EEEElS2_ILl1ELl1EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE
+	.section	.text._ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000EEEES2_ILl1000000ELl1EElLb0ELb1EE6__castIlS2_ILl1ELl1EEEES4_RKNS1_IT_T0_EE,"axG",@progbits,_ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000EEEES2_ILl1000000ELl1EElLb0ELb1EE6__castIlS2_ILl1ELl1EEEES4_RKNS1_IT_T0_EE,comdat
+	.weak	_ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000EEEES2_ILl1000000ELl1EElLb0ELb1EE6__castIlS2_ILl1ELl1EEEES4_RKNS1_IT_T0_EE
+	.type	_ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000EEEES2_ILl1000000ELl1EElLb0ELb1EE6__castIlS2_ILl1ELl1EEEES4_RKNS1_IT_T0_EE, @function
+_ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000EEEES2_ILl1000000ELl1EElLb0ELb1EE6__castIlS2_ILl1ELl1EEEES4_RKNS1_IT_T0_EE:
+.LFB3405:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$48, %rsp
+	movq	%rdi, -40(%rbp)
+	movq	%fs:40, %rax
+	movq	%rax, -8(%rbp)
+	xorl	%eax, %eax
+	movq	-40(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono8durationIlSt5ratioILl1ELl1EEE5countEv
+	imulq	$1000000, %rax, %rax
+	movq	%rax, -24(%rbp)
+	leaq	-24(%rbp), %rdx
+	leaq	-16(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000EEEC1IlvEERKT_
+	movq	-16(%rbp), %rax
+	movq	-8(%rbp), %rdx
+	subq	%fs:40, %rdx
+	je	.L82
+	call	__stack_chk_fail@PLT
+.L82:
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3405:
+	.size	_ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000EEEES2_ILl1000000ELl1EElLb0ELb1EE6__castIlS2_ILl1ELl1EEEES4_RKNS1_IT_T0_EE, .-_ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000EEEES2_ILl1000000ELl1EElLb0ELb1EE6__castIlS2_ILl1ELl1EEEES4_RKNS1_IT_T0_EE
+	.section	.text._ZNSt6chronormIlSt5ratioILl1ELl1000000EElS1_ILl1ELl1EEEENSt11common_typeIJNS_8durationIT_T0_EENS5_IT1_T2_EEEE4typeERKS8_RKSB_,"axG",@progbits,_ZNSt6chronormIlSt5ratioILl1ELl1000000EElS1_ILl1ELl1EEEENSt11common_typeIJNS_8durationIT_T0_EENS5_IT1_T2_EEEE4typeERKS8_RKSB_,comdat
+	.weak	_ZNSt6chronormIlSt5ratioILl1ELl1000000EElS1_ILl1ELl1EEEENSt11common_typeIJNS_8durationIT_T0_EENS5_IT1_T2_EEEE4typeERKS8_RKSB_
+	.type	_ZNSt6chronormIlSt5ratioILl1ELl1000000EElS1_ILl1ELl1EEEENSt11common_typeIJNS_8durationIT_T0_EENS5_IT1_T2_EEEE4typeERKS8_RKSB_, @function
+_ZNSt6chronormIlSt5ratioILl1ELl1000000EElS1_ILl1ELl1EEEENSt11common_typeIJNS_8durationIT_T0_EENS5_IT1_T2_EEEE4typeERKS8_RKSB_:
+.LFB3398:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	pushq	%rbx
+	subq	$72, %rsp
+	.cfi_offset 3, -24
+	movq	%rdi, -72(%rbp)
+	movq	%rsi, -80(%rbp)
+	movq	%fs:40, %rax
+	movq	%rax, -24(%rbp)
+	xorl	%eax, %eax
+	movq	-72(%rbp), %rax
+	movq	(%rax), %rax
+	movq	%rax, -56(%rbp)
+	leaq	-56(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000EEE5countEv
+	movq	%rax, %rbx
+	movq	-80(%rbp), %rdx
+	leaq	-48(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000EEEC1IlS1_ILl1ELl1EEvEERKNS0_IT_T0_EE
+	leaq	-48(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000EEE5countEv
+	movq	%rax, %rcx
+	movq	%rbx, %rax
+	cqto
+	idivq	%rcx
+	movq	%rdx, %rcx
+	movq	%rcx, %rax
+	movq	%rax, -40(%rbp)
+	leaq	-40(%rbp), %rdx
+	leaq	-32(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000EEEC1IlvEERKT_
+	movq	-32(%rbp), %rax
+	movq	-24(%rbp), %rdx
+	subq	%fs:40, %rdx
+	je	.L85
+	call	__stack_chk_fail@PLT
+.L85:
+	movq	-8(%rbp), %rbx
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3398:
+	.size	_ZNSt6chronormIlSt5ratioILl1ELl1000000EElS1_ILl1ELl1EEEENSt11common_typeIJNS_8durationIT_T0_EENS5_IT1_T2_EEEE4typeERKS8_RKSB_, .-_ZNSt6chronormIlSt5ratioILl1ELl1000000EElS1_ILl1ELl1EEEENSt11common_typeIJNS_8durationIT_T0_EENS5_IT1_T2_EEEE4typeERKS8_RKSB_
+	.section	.text._ZSt8put_timeIcESt9_Put_timeIT_EPK2tmPKS1_,"axG",@progbits,_ZSt8put_timeIcESt9_Put_timeIT_EPK2tmPKS1_,comdat
+	.weak	_ZSt8put_timeIcESt9_Put_timeIT_EPK2tmPKS1_
+	.type	_ZSt8put_timeIcESt9_Put_timeIT_EPK2tmPKS1_, @function
+_ZSt8put_timeIcESt9_Put_timeIT_EPK2tmPKS1_:
+.LFB3406:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-8(%rbp), %rax
+	movq	-16(%rbp), %rdx
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3406:
+	.size	_ZSt8put_timeIcESt9_Put_timeIT_EPK2tmPKS1_, .-_ZSt8put_timeIcESt9_Put_timeIT_EPK2tmPKS1_
+	.section	.text._ZStlsIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_St9_Put_timeIS3_E,"axG",@progbits,_ZStlsIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_St9_Put_timeIS3_E,comdat
+	.weak	_ZStlsIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_St9_Put_timeIS3_E
+	.type	_ZStlsIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_St9_Put_timeIS3_E, @function
+_ZStlsIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_St9_Put_timeIS3_E:
+.LFB3407:
+	.cfi_startproc
+	.cfi_personality 0x9b,DW.ref.__gxx_personality_v0
+	.cfi_lsda 0x1b,.LLSDA3407
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	pushq	%r14
+	pushq	%r13
+	pushq	%r12
+	pushq	%rbx
+	addq	$-128, %rsp
+	.cfi_offset 14, -24
+	.cfi_offset 13, -32
+	.cfi_offset 12, -40
+	.cfi_offset 3, -48
+	movq	%rdi, -136(%rbp)
+	movq	%rsi, %rax
+	movq	%rdx, %rcx
+	movq	%rax, %rax
+	movl	$0, %edx
+	movq	%rcx, %rdx
+	movq	%rax, -160(%rbp)
+	movq	%rdx, -152(%rbp)
+	movq	%fs:40, %rax
+	movq	%rax, -40(%rbp)
+	xorl	%eax, %eax
+	movq	-136(%rbp), %rdx
+	leaq	-96(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+.LEHB0:
+	call	_ZNSo6sentryC1ERSo@PLT
+.LEHE0:
+	leaq	-96(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSo6sentrycvbEv@PLT
+	testb	%al, %al
+	je	.L89
+	movl	$0, -124(%rbp)
+	movq	-152(%rbp), %rbx
+	movq	-152(%rbp), %rax
+	movq	%rax, %rdi
+.LEHB1:
+	call	_ZNSt11char_traitsIcE6lengthEPKc
+.LEHE1:
+	addq	%rbx, %rax
+	movq	%rax, -120(%rbp)
+	movq	-136(%rbp), %rax
+	movq	(%rax), %rax
+	subq	$24, %rax
+	movq	(%rax), %rax
+	movq	%rax, %rdx
+	movq	-136(%rbp), %rax
+	addq	%rax, %rdx
+	leaq	-64(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNKSt8ios_base6getlocEv
+	leaq	-64(%rbp), %rax
+	movq	%rax, %rdi
+.LEHB2:
+	call	_ZSt9use_facetISt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEERKT_RKSt6locale@PLT
+.LEHE2:
+	movq	%rax, -112(%rbp)
+	leaq	-64(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt6localeD1Ev@PLT
+	movq	-152(%rbp), %r12
+	movq	-160(%rbp), %r14
+	movq	-136(%rbp), %rax
+	movq	(%rax), %rax
+	subq	$24, %rax
+	movq	(%rax), %rax
+	movq	%rax, %rdx
+	movq	-136(%rbp), %rax
+	addq	%rdx, %rax
+	movq	%rax, %rdi
+.LEHB3:
+	call	_ZNKSt9basic_iosIcSt11char_traitsIcEE4fillEv@PLT
+	movsbl	%al, %r13d
+	movq	-136(%rbp), %rax
+	movq	(%rax), %rax
+	subq	$24, %rax
+	movq	(%rax), %rax
+	movq	%rax, %rdx
+	movq	-136(%rbp), %rax
+	leaq	(%rdx,%rax), %rbx
+	movq	-136(%rbp), %rax
+	movq	(%rax), %rax
+	subq	$24, %rax
+	movq	(%rax), %rax
+	movq	%rax, %rdx
+	movq	-136(%rbp), %rax
+	addq	%rdx, %rax
+	movq	%rax, %rdi
+	call	_ZNKSt9basic_iosIcSt11char_traitsIcEE5rdbufEv@PLT
+	movq	%rax, %rdx
+	leaq	-80(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt19ostreambuf_iteratorIcSt11char_traitsIcEEC1EPSt15basic_streambufIcS1_E
+	movq	-80(%rbp), %rsi
+	movq	-72(%rbp), %rdx
+	movq	-112(%rbp), %rax
+	pushq	-120(%rbp)
+	pushq	%r12
+	movq	%r14, %r9
+	movl	%r13d, %r8d
+	movq	%rbx, %rcx
+	movq	%rax, %rdi
+	.cfi_escape 0x2e,0x10
+	call	_ZNKSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basecPK2tmPKcSB_@PLT
+.LEHE3:
+	addq	$16, %rsp
+	movq	%rax, -64(%rbp)
+	movq	%rdx, -56(%rbp)
+	leaq	-64(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt19ostreambuf_iteratorIcSt11char_traitsIcEE6failedEv
+	testb	%al, %al
+	je	.L90
+	leaq	-124(%rbp), %rax
+	movl	$1, %esi
+	movq	%rax, %rdi
+	call	_ZStoRRSt12_Ios_IostateS_
+.L90:
+	movl	-124(%rbp), %eax
+	testl	%eax, %eax
+	je	.L89
+	movq	-136(%rbp), %rax
+	movq	(%rax), %rax
+	subq	$24, %rax
+	movq	(%rax), %rax
+	movq	%rax, %rdx
+	movq	-136(%rbp), %rax
+	addq	%rax, %rdx
+	movl	-124(%rbp), %eax
+	movl	%eax, %esi
+	movq	%rdx, %rdi
+.LEHB4:
+	.cfi_escape 0x2e,0
+	call	_ZNSt9basic_iosIcSt11char_traitsIcEE8setstateESt12_Ios_Iostate@PLT
+.LEHE4:
+.L89:
+	movq	-136(%rbp), %rbx
+	leaq	-96(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSo6sentryD1Ev@PLT
+	movq	%rbx, %rax
+	movq	-40(%rbp), %rdx
+	subq	%fs:40, %rdx
+	je	.L101
+	jmp	.L107
+.L103:
+	endbr64
+	movq	%rax, %r12
+	movq	%rdx, %rbx
+	leaq	-64(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt6localeD1Ev@PLT
+	movq	%r12, %rax
+	movq	%rbx, %rdx
+	jmp	.L94
+.L102:
+	endbr64
+.L94:
+	cmpq	$1, %rdx
+	jne	.L95
+	movq	%rax, %rdi
+	call	__cxa_begin_catch@PLT
+	movq	%rax, -104(%rbp)
+	movq	-136(%rbp), %rax
+	movq	(%rax), %rax
+	subq	$24, %rax
+	movq	(%rax), %rax
+	movq	%rax, %rdx
+	movq	-136(%rbp), %rax
+	addq	%rdx, %rax
+	movl	$1, %esi
+	movq	%rax, %rdi
+.LEHB5:
+	call	_ZNSt9basic_iosIcSt11char_traitsIcEE11_M_setstateESt12_Ios_Iostate@PLT
+	movq	-40(%rbp), %rax
+	subq	%fs:40, %rax
+	je	.L96
+	call	__stack_chk_fail@PLT
+.L96:
+	call	__cxa_rethrow@PLT
+.LEHE5:
+.L95:
+	movq	%rax, %rdi
+	call	__cxa_begin_catch@PLT
+	movq	-136(%rbp), %rax
+	movq	(%rax), %rax
+	subq	$24, %rax
+	movq	(%rax), %rax
+	movq	%rax, %rdx
+	movq	-136(%rbp), %rax
+	addq	%rdx, %rax
+	movl	$1, %esi
+	movq	%rax, %rdi
+.LEHB6:
+	call	_ZNSt9basic_iosIcSt11char_traitsIcEE11_M_setstateESt12_Ios_Iostate@PLT
+.LEHE6:
+.LEHB7:
+	call	__cxa_end_catch@PLT
+.LEHE7:
+	jmp	.L90
+.L105:
+	endbr64
+	movq	%rax, %rbx
+	call	__cxa_end_catch@PLT
+	jmp	.L98
+.L106:
+	endbr64
+	movq	%rax, %rbx
+	call	__cxa_end_catch@PLT
+	jmp	.L98
+.L104:
+	endbr64
+	movq	%rax, %rbx
+.L98:
+	leaq	-96(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSo6sentryD1Ev@PLT
+	movq	%rbx, %rax
+	movq	-40(%rbp), %rdx
+	subq	%fs:40, %rdx
+	je	.L100
+	call	__stack_chk_fail@PLT
+.L100:
+	movq	%rax, %rdi
+.LEHB8:
+	call	_Unwind_Resume@PLT
+.LEHE8:
+.L107:
+	call	__stack_chk_fail@PLT
+.L101:
+	leaq	-32(%rbp), %rsp
+	popq	%rbx
+	popq	%r12
+	popq	%r13
+	popq	%r14
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3407:
+	.section	.gcc_except_table._ZStlsIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_St9_Put_timeIS3_E,"aG",@progbits,_ZStlsIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_St9_Put_timeIS3_E,comdat
+	.align 4
+.LLSDA3407:
+	.byte	0xff
+	.byte	0x9b
+	.uleb128 .LLSDATT3407-.LLSDATTD3407
+.LLSDATTD3407:
+	.byte	0x1
+	.uleb128 .LLSDACSE3407-.LLSDACSB3407
+.LLSDACSB3407:
+	.uleb128 .LEHB0-.LFB3407
+	.uleb128 .LEHE0-.LEHB0
+	.uleb128 0
+	.uleb128 0
+	.uleb128 .LEHB1-.LFB3407
+	.uleb128 .LEHE1-.LEHB1
+	.uleb128 .L102-.LFB3407
+	.uleb128 0x3
+	.uleb128 .LEHB2-.LFB3407
+	.uleb128 .LEHE2-.LEHB2
+	.uleb128 .L103-.LFB3407
+	.uleb128 0x3
+	.uleb128 .LEHB3-.LFB3407
+	.uleb128 .LEHE3-.LEHB3
+	.uleb128 .L102-.LFB3407
+	.uleb128 0x3
+	.uleb128 .LEHB4-.LFB3407
+	.uleb128 .LEHE4-.LEHB4
+	.uleb128 .L104-.LFB3407
+	.uleb128 0
+	.uleb128 .LEHB5-.LFB3407
+	.uleb128 .LEHE5-.LEHB5
+	.uleb128 .L105-.LFB3407
+	.uleb128 0
+	.uleb128 .LEHB6-.LFB3407
+	.uleb128 .LEHE6-.LEHB6
+	.uleb128 .L106-.LFB3407
+	.uleb128 0
+	.uleb128 .LEHB7-.LFB3407
+	.uleb128 .LEHE7-.LEHB7
+	.uleb128 .L104-.LFB3407
+	.uleb128 0
+	.uleb128 .LEHB8-.LFB3407
+	.uleb128 .LEHE8-.LEHB8
+	.uleb128 0
+	.uleb128 0
+.LLSDACSE3407:
+	.byte	0x2
+	.byte	0
+	.byte	0x1
+	.byte	0x7d
+	.align 4
+	.long	0
+
+	.long	DW.ref._ZTIN10__cxxabiv115__forced_unwindE-.
+.LLSDATT3407:
+	.section	.text._ZStlsIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_St9_Put_timeIS3_E,"axG",@progbits,_ZStlsIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_St9_Put_timeIS3_E,comdat
+	.size	_ZStlsIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_St9_Put_timeIS3_E, .-_ZStlsIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_St9_Put_timeIS3_E
+	.section	.text._ZSt7setfillIcESt8_SetfillIT_ES1_,"axG",@progbits,_ZSt7setfillIcESt8_SetfillIT_ES1_,comdat
+	.weak	_ZSt7setfillIcESt8_SetfillIT_ES1_
+	.type	_ZSt7setfillIcESt8_SetfillIT_ES1_, @function
+_ZSt7setfillIcESt8_SetfillIT_ES1_:
+.LFB3410:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movl	%edi, %eax
+	movb	%al, -4(%rbp)
+	movzbl	-4(%rbp), %eax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3410:
+	.size	_ZSt7setfillIcESt8_SetfillIT_ES1_, .-_ZSt7setfillIcESt8_SetfillIT_ES1_
+	.section	.text._ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000EEE5countEv,"axG",@progbits,_ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000EEE5countEv,comdat
+	.align 2
+	.weak	_ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000EEE5countEv
+	.type	_ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000EEE5countEv, @function
+_ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000EEE5countEv:
+.LFB3412:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	(%rax), %rax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3412:
+	.size	_ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000EEE5countEv, .-_ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000EEE5countEv
+	.section	.text._ZNSt6chronomiIlSt5ratioILl1ELl1000000000EElS2_EENSt11common_typeIJNS_8durationIT_T0_EENS4_IT1_T2_EEEE4typeERKS7_RKSA_,"axG",@progbits,_ZNSt6chronomiIlSt5ratioILl1ELl1000000000EElS2_EENSt11common_typeIJNS_8durationIT_T0_EENS4_IT1_T2_EEEE4typeERKS7_RKSA_,comdat
+	.weak	_ZNSt6chronomiIlSt5ratioILl1ELl1000000000EElS2_EENSt11common_typeIJNS_8durationIT_T0_EENS4_IT1_T2_EEEE4typeERKS7_RKSA_
+	.type	_ZNSt6chronomiIlSt5ratioILl1ELl1000000000EElS2_EENSt11common_typeIJNS_8durationIT_T0_EENS4_IT1_T2_EEEE4typeERKS7_RKSA_, @function
+_ZNSt6chronomiIlSt5ratioILl1ELl1000000000EElS2_EENSt11common_typeIJNS_8durationIT_T0_EENS4_IT1_T2_EEEE4typeERKS7_RKSA_:
+.LFB3414:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	pushq	%rbx
+	subq	$72, %rsp
+	.cfi_offset 3, -24
+	movq	%rdi, -72(%rbp)
+	movq	%rsi, -80(%rbp)
+	movq	%fs:40, %rax
+	movq	%rax, -24(%rbp)
+	xorl	%eax, %eax
+	movq	-72(%rbp), %rax
+	movq	(%rax), %rax
+	movq	%rax, -56(%rbp)
+	leaq	-56(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000000EEE5countEv
+	movq	%rax, %rbx
+	movq	-80(%rbp), %rax
+	movq	(%rax), %rax
+	movq	%rax, -48(%rbp)
+	leaq	-48(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000000EEE5countEv
+	subq	%rax, %rbx
+	movq	%rbx, %rdx
+	movq	%rdx, -40(%rbp)
+	leaq	-40(%rbp), %rdx
+	leaq	-32(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC1IlvEERKT_
+	movq	-32(%rbp), %rax
+	movq	-24(%rbp), %rdx
+	subq	%fs:40, %rdx
+	je	.L114
+	call	__stack_chk_fail@PLT
+.L114:
+	movq	-8(%rbp), %rbx
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3414:
+	.size	_ZNSt6chronomiIlSt5ratioILl1ELl1000000000EElS2_EENSt11common_typeIJNS_8durationIT_T0_EENS4_IT1_T2_EEEE4typeERKS7_RKSA_, .-_ZNSt6chronomiIlSt5ratioILl1ELl1000000000EElS2_EENSt11common_typeIJNS_8durationIT_T0_EENS4_IT1_T2_EEEE4typeERKS7_RKSA_
+	.section	.text._ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000000EEEElS3_EENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES7_E4typeERKNS1_IT0_T1_EE,"axG",@progbits,_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000000EEEElS3_EENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES7_E4typeERKNS1_IT0_T1_EE,comdat
+	.weak	_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000000EEEElS3_EENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES7_E4typeERKNS1_IT0_T1_EE
+	.type	_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000000EEEElS3_EENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES7_E4typeERKNS1_IT0_T1_EE, @function
+_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000000EEEElS3_EENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES7_E4typeERKNS1_IT0_T1_EE:
+.LFB3415:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	(%rax), %rax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3415:
+	.size	_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000000EEEElS3_EENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES7_E4typeERKNS1_IT0_T1_EE, .-_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000000EEEElS3_EENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES7_E4typeERKNS1_IT0_T1_EE
+	.section	.text._ZNKSt6chrono10time_pointINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv,"axG",@progbits,_ZNKSt6chrono10time_pointINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv,comdat
+	.align 2
+	.weak	_ZNKSt6chrono10time_pointINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv
+	.type	_ZNKSt6chrono10time_pointINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv, @function
+_ZNKSt6chrono10time_pointINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv:
+.LFB3416:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	(%rax), %rax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3416:
+	.size	_ZNKSt6chrono10time_pointINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv, .-_ZNKSt6chrono10time_pointINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv
+	.section	.text._ZNSt6chronoplINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEElS5_EENS_10time_pointIT_NSt11common_typeIJT0_NS3_IT1_T2_EEEE4typeEEERKNS7_IS8_SA_EERKSD_,"axG",@progbits,_ZNSt6chronoplINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEElS5_EENS_10time_pointIT_NSt11common_typeIJT0_NS3_IT1_T2_EEEE4typeEEERKNS7_IS8_SA_EERKSD_,comdat
+	.weak	_ZNSt6chronoplINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEElS5_EENS_10time_pointIT_NSt11common_typeIJT0_NS3_IT1_T2_EEEE4typeEEERKNS7_IS8_SA_EERKSD_
+	.type	_ZNSt6chronoplINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEElS5_EENS_10time_pointIT_NSt11common_typeIJT0_NS3_IT1_T2_EEEE4typeEEERKNS7_IS8_SA_EERKSD_, @function
+_ZNSt6chronoplINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEElS5_EENS_10time_pointIT_NSt11common_typeIJT0_NS3_IT1_T2_EEEE4typeEEERKNS7_IS8_SA_EERKSD_:
+.LFB3417:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$48, %rsp
+	movq	%rdi, -40(%rbp)
+	movq	%rsi, -48(%rbp)
+	movq	%fs:40, %rax
+	movq	%rax, -8(%rbp)
+	xorl	%eax, %eax
+	movq	-40(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEEE16time_since_epochEv
+	movq	%rax, -32(%rbp)
+	movq	-48(%rbp), %rdx
+	leaq	-32(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6chronoplIlSt5ratioILl1ELl1EElS2_EENSt11common_typeIJNS_8durationIT_T0_EENS4_IT1_T2_EEEE4typeERKS7_RKSA_
+	movq	%rax, -24(%rbp)
+	leaq	-24(%rbp), %rdx
+	leaq	-16(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEEEC1ERKS6_
+	movq	-16(%rbp), %rax
+	movq	-8(%rbp), %rdx
+	subq	%fs:40, %rdx
+	je	.L121
+	call	__stack_chk_fail@PLT
+.L121:
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3417:
+	.size	_ZNSt6chronoplINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEElS5_EENS_10time_pointIT_NSt11common_typeIJT0_NS3_IT1_T2_EEEE4typeEEERKNS7_IS8_SA_EERKSD_, .-_ZNSt6chronoplINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEElS5_EENS_10time_pointIT_NSt11common_typeIJT0_NS3_IT1_T2_EEEE4typeEEERKNS7_IS8_SA_EERKSD_
+	.section	.text._ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEEE16time_since_epochEv,"axG",@progbits,_ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEEE16time_since_epochEv,comdat
+	.align 2
+	.weak	_ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEEE16time_since_epochEv
+	.type	_ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEEE16time_since_epochEv, @function
+_ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEEE16time_since_epochEv:
+.LFB3419:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	(%rax), %rax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3419:
+	.size	_ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEEE16time_since_epochEv, .-_ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEEE16time_since_epochEv
+	.section	.text._ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEC2INS3_IlS4_ILl1ELl1EEEEvEERKNS0_IS2_T_EE,"axG",@progbits,_ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEC5INS3_IlS4_ILl1ELl1EEEEvEERKNS0_IS2_T_EE,comdat
+	.align 2
+	.weak	_ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEC2INS3_IlS4_ILl1ELl1EEEEvEERKNS0_IS2_T_EE
+	.type	_ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEC2INS3_IlS4_ILl1ELl1EEEEvEERKNS0_IS2_T_EE, @function
+_ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEC2INS3_IlS4_ILl1ELl1EEEEvEERKNS0_IS2_T_EE:
+.LFB3420:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	pushq	%rbx
+	subq	$40, %rsp
+	.cfi_offset 3, -24
+	movq	%rdi, -40(%rbp)
+	movq	%rsi, -48(%rbp)
+	movq	%fs:40, %rax
+	movq	%rax, -24(%rbp)
+	xorl	%eax, %eax
+	movq	-40(%rbp), %rbx
+	movq	-48(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1EEEEE16time_since_epochEv
+	movq	%rax, -32(%rbp)
+	leaq	-32(%rbp), %rax
+	movq	%rax, %rsi
+	movq	%rbx, %rdi
+	call	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC1IlS1_ILl1ELl1EEvEERKNS0_IT_T0_EE
+	nop
+	movq	-24(%rbp), %rax
+	subq	%fs:40, %rax
+	je	.L125
+	call	__stack_chk_fail@PLT
+.L125:
+	movq	-8(%rbp), %rbx
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3420:
+	.size	_ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEC2INS3_IlS4_ILl1ELl1EEEEvEERKNS0_IS2_T_EE, .-_ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEC2INS3_IlS4_ILl1ELl1EEEEvEERKNS0_IS2_T_EE
+	.weak	_ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEC1INS3_IlS4_ILl1ELl1EEEEvEERKNS0_IS2_T_EE
+	.set	_ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEC1INS3_IlS4_ILl1ELl1EEEEvEERKNS0_IS2_T_EE,_ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEC2INS3_IlS4_ILl1ELl1EEEEvEERKNS0_IS2_T_EE
+	.section	.text._ZNSt6chrono10time_pointINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEC2ERKS6_,"axG",@progbits,_ZNSt6chrono10time_pointINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEC5ERKS6_,comdat
+	.align 2
+	.weak	_ZNSt6chrono10time_pointINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEC2ERKS6_
+	.type	_ZNSt6chrono10time_pointINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEC2ERKS6_, @function
+_ZNSt6chrono10time_pointINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEC2ERKS6_:
+.LFB3423:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-8(%rbp), %rax
+	movq	-16(%rbp), %rdx
+	movq	(%rdx), %rdx
+	movq	%rdx, (%rax)
+	nop
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3423:
+	.size	_ZNSt6chrono10time_pointINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEC2ERKS6_, .-_ZNSt6chrono10time_pointINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEC2ERKS6_
+	.weak	_ZNSt6chrono10time_pointINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEC1ERKS6_
+	.set	_ZNSt6chrono10time_pointINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEC1ERKS6_,_ZNSt6chrono10time_pointINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEC2ERKS6_
+	.section	.text._ZNSt6chronoltINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEES6_EEbRKNS_10time_pointIT_T0_EERKNS7_IS8_T1_EE,"axG",@progbits,_ZNSt6chronoltINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEES6_EEbRKNS_10time_pointIT_T0_EERKNS7_IS8_T1_EE,comdat
+	.weak	_ZNSt6chronoltINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEES6_EEbRKNS_10time_pointIT_T0_EERKNS7_IS8_T1_EE
+	.type	_ZNSt6chronoltINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEES6_EEbRKNS_10time_pointIT_T0_EERKNS7_IS8_T1_EE, @function
+_ZNSt6chronoltINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEES6_EEbRKNS_10time_pointIT_T0_EERKNS7_IS8_T1_EE:
+.LFB3425:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$48, %rsp
+	movq	%rdi, -40(%rbp)
+	movq	%rsi, -48(%rbp)
+	movq	%fs:40, %rax
+	movq	%rax, -8(%rbp)
+	xorl	%eax, %eax
+	movq	-48(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono10time_pointINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv
+	movq	%rax, -16(%rbp)
+	movq	-40(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono10time_pointINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv
+	movq	%rax, -24(%rbp)
+	leaq	-16(%rbp), %rdx
+	leaq	-24(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6chronoltIlSt5ratioILl1ELl1000000000EElS2_EEbRKNS_8durationIT_T0_EERKNS3_IT1_T2_EE
+	movq	-8(%rbp), %rdx
+	subq	%fs:40, %rdx
+	je	.L129
+	call	__stack_chk_fail@PLT
+.L129:
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3425:
+	.size	_ZNSt6chronoltINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEES6_EEbRKNS_10time_pointIT_T0_EERKNS7_IS8_T1_EE, .-_ZNSt6chronoltINS_3_V212steady_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEES6_EEbRKNS_10time_pointIT_T0_EERKNS7_IS8_T1_EE
+	.section	.text._ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC2IlS1_ILl1ELl1EEvEERKNS0_IT_T0_EE,"axG",@progbits,_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC5IlS1_ILl1ELl1EEvEERKNS0_IT_T0_EE,comdat
+	.align 2
+	.weak	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC2IlS1_ILl1ELl1EEvEERKNS0_IT_T0_EE
+	.type	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC2IlS1_ILl1ELl1EEvEERKNS0_IT_T0_EE, @function
+_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC2IlS1_ILl1ELl1EEvEERKNS0_IT_T0_EE:
+.LFB3427:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$32, %rsp
+	movq	%rdi, -24(%rbp)
+	movq	%rsi, -32(%rbp)
+	movq	%fs:40, %rax
+	movq	%rax, -8(%rbp)
+	xorl	%eax, %eax
+	movq	-32(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000000EEEElS2_ILl1ELl1EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE
+	movq	%rax, -16(%rbp)
+	leaq	-16(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000000EEE5countEv
+	movq	-24(%rbp), %rdx
+	movq	%rax, (%rdx)
+	nop
+	movq	-8(%rbp), %rax
+	subq	%fs:40, %rax
+	je	.L131
+	call	__stack_chk_fail@PLT
+.L131:
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3427:
+	.size	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC2IlS1_ILl1ELl1EEvEERKNS0_IT_T0_EE, .-_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC2IlS1_ILl1ELl1EEvEERKNS0_IT_T0_EE
+	.weak	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC1IlS1_ILl1ELl1EEvEERKNS0_IT_T0_EE
+	.set	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC1IlS1_ILl1ELl1EEvEERKNS0_IT_T0_EE,_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC2IlS1_ILl1ELl1EEvEERKNS0_IT_T0_EE
+	.section	.text._ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEpLERKS6_,"axG",@progbits,_ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEpLERKS6_,comdat
+	.align 2
+	.weak	_ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEpLERKS6_
+	.type	_ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEpLERKS6_, @function
+_ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEpLERKS6_:
+.LFB3429:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-8(%rbp), %rax
+	movq	-16(%rbp), %rdx
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEpLERKS3_
+	movq	-8(%rbp), %rax
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3429:
+	.size	_ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEpLERKS6_, .-_ZNSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEEpLERKS6_
+	.section	.text._ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1EEEES2_ILl1ELl1000000000EElLb1ELb0EE6__castIlS5_EES4_RKNS1_IT_T0_EE,"axG",@progbits,_ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1EEEES2_ILl1ELl1000000000EElLb1ELb0EE6__castIlS5_EES4_RKNS1_IT_T0_EE,comdat
+	.weak	_ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1EEEES2_ILl1ELl1000000000EElLb1ELb0EE6__castIlS5_EES4_RKNS1_IT_T0_EE
+	.type	_ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1EEEES2_ILl1ELl1000000000EElLb1ELb0EE6__castIlS5_EES4_RKNS1_IT_T0_EE, @function
+_ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1EEEES2_ILl1ELl1000000000EElLb1ELb0EE6__castIlS5_EES4_RKNS1_IT_T0_EE:
+.LFB3430:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$48, %rsp
+	movq	%rdi, -40(%rbp)
+	movq	%fs:40, %rax
+	movq	%rax, -8(%rbp)
+	xorl	%eax, %eax
+	movq	-40(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000000EEE5countEv
+	movq	%rax, %rcx
+	movabsq	$1237940039285380275, %rdx
+	movq	%rcx, %rax
+	imulq	%rdx
+	movq	%rdx, %rax
+	sarq	$26, %rax
+	sarq	$63, %rcx
+	movq	%rcx, %rdx
+	subq	%rdx, %rax
+	movq	%rax, -24(%rbp)
+	leaq	-24(%rbp), %rdx
+	leaq	-16(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC1IlvEERKT_
+	movq	-16(%rbp), %rax
+	movq	-8(%rbp), %rdx
+	subq	%fs:40, %rdx
+	je	.L136
+	call	__stack_chk_fail@PLT
+.L136:
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3430:
+	.size	_ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1EEEES2_ILl1ELl1000000000EElLb1ELb0EE6__castIlS5_EES4_RKNS1_IT_T0_EE, .-_ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1EEEES2_ILl1ELl1000000000EElLb1ELb0EE6__castIlS5_EES4_RKNS1_IT_T0_EE
+	.section	.text._ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000000EEEElS2_ILl1ELl1EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE,"axG",@progbits,_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000000EEEElS2_ILl1ELl1EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE,comdat
+	.weak	_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000000EEEElS2_ILl1ELl1EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE
+	.type	_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000000EEEElS2_ILl1ELl1EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE, @function
+_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000000EEEElS2_ILl1ELl1EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE:
+.LFB3431:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000000EEEES2_ILl1000000000ELl1EElLb0ELb1EE6__castIlS2_ILl1ELl1EEEES4_RKNS1_IT_T0_EE
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3431:
+	.size	_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000000EEEElS2_ILl1ELl1EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE, .-_ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000000EEEElS2_ILl1ELl1EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE
+	.section	.text._ZN9__gnu_cxx11char_traitsIcE2eqERKcS3_,"axG",@progbits,_ZN9__gnu_cxx11char_traitsIcE2eqERKcS3_,comdat
+	.weak	_ZN9__gnu_cxx11char_traitsIcE2eqERKcS3_
+	.type	_ZN9__gnu_cxx11char_traitsIcE2eqERKcS3_, @function
+_ZN9__gnu_cxx11char_traitsIcE2eqERKcS3_:
+.LFB3440:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-8(%rbp), %rax
+	movzbl	(%rax), %edx
+	movq	-16(%rbp), %rax
+	movzbl	(%rax), %eax
+	cmpb	%al, %dl
+	sete	%al
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3440:
+	.size	_ZN9__gnu_cxx11char_traitsIcE2eqERKcS3_, .-_ZN9__gnu_cxx11char_traitsIcE2eqERKcS3_
+	.section	.text._ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000EEEES2_ILl1ELl1000EElLb1ELb0EE6__castIlS2_ILl1ELl1000000000EEEES4_RKNS1_IT_T0_EE,"axG",@progbits,_ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000EEEES2_ILl1ELl1000EElLb1ELb0EE6__castIlS2_ILl1ELl1000000000EEEES4_RKNS1_IT_T0_EE,comdat
+	.weak	_ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000EEEES2_ILl1ELl1000EElLb1ELb0EE6__castIlS2_ILl1ELl1000000000EEEES4_RKNS1_IT_T0_EE
+	.type	_ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000EEEES2_ILl1ELl1000EElLb1ELb0EE6__castIlS2_ILl1ELl1000000000EEEES4_RKNS1_IT_T0_EE, @function
+_ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000EEEES2_ILl1ELl1000EElLb1ELb0EE6__castIlS2_ILl1ELl1000000000EEEES4_RKNS1_IT_T0_EE:
+.LFB3552:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$48, %rsp
+	movq	%rdi, -40(%rbp)
+	movq	%fs:40, %rax
+	movq	%rax, -8(%rbp)
+	xorl	%eax, %eax
+	movq	-40(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000000EEE5countEv
+	movq	%rax, %rcx
+	movabsq	$2361183241434822607, %rdx
+	movq	%rcx, %rax
+	imulq	%rdx
+	movq	%rdx, %rax
+	sarq	$7, %rax
+	sarq	$63, %rcx
+	movq	%rcx, %rdx
+	subq	%rdx, %rax
+	movq	%rax, -24(%rbp)
+	leaq	-24(%rbp), %rdx
+	leaq	-16(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000EEEC1IlvEERKT_
+	movq	-16(%rbp), %rax
+	movq	-8(%rbp), %rdx
+	subq	%fs:40, %rdx
+	je	.L143
+	call	__stack_chk_fail@PLT
+.L143:
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3552:
+	.size	_ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000EEEES2_ILl1ELl1000EElLb1ELb0EE6__castIlS2_ILl1ELl1000000000EEEES4_RKNS1_IT_T0_EE, .-_ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000EEEES2_ILl1ELl1000EElLb1ELb0EE6__castIlS2_ILl1ELl1000000000EEEES4_RKNS1_IT_T0_EE
+	.section	.text._ZNSt6chrono8durationIlSt5ratioILl1ELl1000000EEEC2IlvEERKT_,"axG",@progbits,_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000EEEC5IlvEERKT_,comdat
+	.align 2
+	.weak	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000EEEC2IlvEERKT_
+	.type	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000EEEC2IlvEERKT_, @function
+_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000EEEC2IlvEERKT_:
+.LFB3554:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-16(%rbp), %rax
+	movq	(%rax), %rdx
+	movq	-8(%rbp), %rax
+	movq	%rdx, (%rax)
+	nop
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3554:
+	.size	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000EEEC2IlvEERKT_, .-_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000EEEC2IlvEERKT_
+	.weak	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000EEEC1IlvEERKT_
+	.set	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000EEEC1IlvEERKT_,_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000EEEC2IlvEERKT_
+	.section	.text._ZNSt19ostreambuf_iteratorIcSt11char_traitsIcEEC2EPSt15basic_streambufIcS1_E,"axG",@progbits,_ZNSt19ostreambuf_iteratorIcSt11char_traitsIcEEC5EPSt15basic_streambufIcS1_E,comdat
+	.align 2
+	.weak	_ZNSt19ostreambuf_iteratorIcSt11char_traitsIcEEC2EPSt15basic_streambufIcS1_E
+	.type	_ZNSt19ostreambuf_iteratorIcSt11char_traitsIcEEC2EPSt15basic_streambufIcS1_E, @function
+_ZNSt19ostreambuf_iteratorIcSt11char_traitsIcEEC2EPSt15basic_streambufIcS1_E:
+.LFB3563:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-8(%rbp), %rax
+	movq	-16(%rbp), %rdx
+	movq	%rdx, (%rax)
+	movq	-8(%rbp), %rax
+	movq	(%rax), %rax
+	testq	%rax, %rax
+	sete	%dl
+	movq	-8(%rbp), %rax
+	movb	%dl, 8(%rax)
+	nop
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3563:
+	.size	_ZNSt19ostreambuf_iteratorIcSt11char_traitsIcEEC2EPSt15basic_streambufIcS1_E, .-_ZNSt19ostreambuf_iteratorIcSt11char_traitsIcEEC2EPSt15basic_streambufIcS1_E
+	.weak	_ZNSt19ostreambuf_iteratorIcSt11char_traitsIcEEC1EPSt15basic_streambufIcS1_E
+	.set	_ZNSt19ostreambuf_iteratorIcSt11char_traitsIcEEC1EPSt15basic_streambufIcS1_E,_ZNSt19ostreambuf_iteratorIcSt11char_traitsIcEEC2EPSt15basic_streambufIcS1_E
+	.section	.text._ZNKSt19ostreambuf_iteratorIcSt11char_traitsIcEE6failedEv,"axG",@progbits,_ZNKSt19ostreambuf_iteratorIcSt11char_traitsIcEE6failedEv,comdat
+	.align 2
+	.weak	_ZNKSt19ostreambuf_iteratorIcSt11char_traitsIcEE6failedEv
+	.type	_ZNKSt19ostreambuf_iteratorIcSt11char_traitsIcEE6failedEv, @function
+_ZNKSt19ostreambuf_iteratorIcSt11char_traitsIcEE6failedEv:
+.LFB3566:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	movq	%rdi, -8(%rbp)
+	movq	-8(%rbp), %rax
+	movzbl	8(%rax), %eax
+	popq	%rbp
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3566:
+	.size	_ZNKSt19ostreambuf_iteratorIcSt11char_traitsIcEE6failedEv, .-_ZNKSt19ostreambuf_iteratorIcSt11char_traitsIcEE6failedEv
+	.section	.text._ZNSt6chronoplIlSt5ratioILl1ELl1EElS2_EENSt11common_typeIJNS_8durationIT_T0_EENS4_IT1_T2_EEEE4typeERKS7_RKSA_,"axG",@progbits,_ZNSt6chronoplIlSt5ratioILl1ELl1EElS2_EENSt11common_typeIJNS_8durationIT_T0_EENS4_IT1_T2_EEEE4typeERKS7_RKSA_,comdat
+	.weak	_ZNSt6chronoplIlSt5ratioILl1ELl1EElS2_EENSt11common_typeIJNS_8durationIT_T0_EENS4_IT1_T2_EEEE4typeERKS7_RKSA_
+	.type	_ZNSt6chronoplIlSt5ratioILl1ELl1EElS2_EENSt11common_typeIJNS_8durationIT_T0_EENS4_IT1_T2_EEEE4typeERKS7_RKSA_, @function
+_ZNSt6chronoplIlSt5ratioILl1ELl1EElS2_EENSt11common_typeIJNS_8durationIT_T0_EENS4_IT1_T2_EEEE4typeERKS7_RKSA_:
+.LFB3570:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	pushq	%rbx
+	subq	$72, %rsp
+	.cfi_offset 3, -24
+	movq	%rdi, -72(%rbp)
+	movq	%rsi, -80(%rbp)
+	movq	%fs:40, %rax
+	movq	%rax, -24(%rbp)
+	xorl	%eax, %eax
+	movq	-72(%rbp), %rax
+	movq	(%rax), %rax
+	movq	%rax, -56(%rbp)
+	leaq	-56(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono8durationIlSt5ratioILl1ELl1EEE5countEv
+	movq	%rax, %rbx
+	movq	-80(%rbp), %rax
+	movq	(%rax), %rax
+	movq	%rax, -48(%rbp)
+	leaq	-48(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono8durationIlSt5ratioILl1ELl1EEE5countEv
+	addq	%rbx, %rax
+	movq	%rax, -40(%rbp)
+	leaq	-40(%rbp), %rdx
+	leaq	-32(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6chrono8durationIlSt5ratioILl1ELl1EEEC1IlvEERKT_
+	movq	-32(%rbp), %rax
+	movq	-24(%rbp), %rdx
+	subq	%fs:40, %rdx
+	je	.L150
+	call	__stack_chk_fail@PLT
+.L150:
+	movq	-8(%rbp), %rbx
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3570:
+	.size	_ZNSt6chronoplIlSt5ratioILl1ELl1EElS2_EENSt11common_typeIJNS_8durationIT_T0_EENS4_IT1_T2_EEEE4typeERKS7_RKSA_, .-_ZNSt6chronoplIlSt5ratioILl1ELl1EElS2_EENSt11common_typeIJNS_8durationIT_T0_EENS4_IT1_T2_EEEE4typeERKS7_RKSA_
+	.section	.text._ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEpLERKS3_,"axG",@progbits,_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEpLERKS3_,comdat
+	.align 2
+	.weak	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEpLERKS3_
+	.type	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEpLERKS3_, @function
+_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEpLERKS3_:
+.LFB3571:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movq	%rdi, -8(%rbp)
+	movq	%rsi, -16(%rbp)
+	movq	-16(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000000EEE5countEv
+	movq	-8(%rbp), %rdx
+	movq	(%rdx), %rdx
+	addq	%rax, %rdx
+	movq	-8(%rbp), %rax
+	movq	%rdx, (%rax)
+	movq	-8(%rbp), %rax
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3571:
+	.size	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEpLERKS3_, .-_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEpLERKS3_
+	.section	.text._ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000000EEEES2_ILl1000000000ELl1EElLb0ELb1EE6__castIlS2_ILl1ELl1EEEES4_RKNS1_IT_T0_EE,"axG",@progbits,_ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000000EEEES2_ILl1000000000ELl1EElLb0ELb1EE6__castIlS2_ILl1ELl1EEEES4_RKNS1_IT_T0_EE,comdat
+	.weak	_ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000000EEEES2_ILl1000000000ELl1EElLb0ELb1EE6__castIlS2_ILl1ELl1EEEES4_RKNS1_IT_T0_EE
+	.type	_ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000000EEEES2_ILl1000000000ELl1EElLb0ELb1EE6__castIlS2_ILl1ELl1EEEES4_RKNS1_IT_T0_EE, @function
+_ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000000EEEES2_ILl1000000000ELl1EElLb0ELb1EE6__castIlS2_ILl1ELl1EEEES4_RKNS1_IT_T0_EE:
+.LFB3572:
+	.cfi_startproc
+	endbr64
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$48, %rsp
+	movq	%rdi, -40(%rbp)
+	movq	%fs:40, %rax
+	movq	%rax, -8(%rbp)
+	xorl	%eax, %eax
+	movq	-40(%rbp), %rax
+	movq	%rax, %rdi
+	call	_ZNKSt6chrono8durationIlSt5ratioILl1ELl1EEE5countEv
+	imulq	$1000000000, %rax, %rax
+	movq	%rax, -24(%rbp)
+	leaq	-24(%rbp), %rdx
+	leaq	-16(%rbp), %rax
+	movq	%rdx, %rsi
+	movq	%rax, %rdi
+	call	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC1IlvEERKT_
+	movq	-16(%rbp), %rax
+	movq	-8(%rbp), %rdx
+	subq	%fs:40, %rdx
+	je	.L155
+	call	__stack_chk_fail@PLT
+.L155:
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+.LFE3572:
+	.size	_ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000000EEEES2_ILl1000000000ELl1EElLb0ELb1EE6__castIlS2_ILl1ELl1EEEES4_RKNS1_IT_T0_EE, .-_ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000000EEEES2_ILl1000000000ELl1EElLb0ELb1EE6__castIlS2_ILl1ELl1EEEES4_RKNS1_IT_T0_EE
+	.section	.rodata
+	.type	_ZNSt8__detail30__integer_to_chars_is_unsignedIjEE, @object
+	.size	_ZNSt8__detail30__integer_to_chars_is_unsignedIjEE, 1
+_ZNSt8__detail30__integer_to_chars_is_unsignedIjEE:
+	.byte	1
+	.type	_ZNSt8__detail30__integer_to_chars_is_unsignedImEE, @object
+	.size	_ZNSt8__detail30__integer_to_chars_is_unsignedImEE, 1
+_ZNSt8__detail30__integer_to_chars_is_unsignedImEE:
+	.byte	1
+	.type	_ZNSt8__detail30__integer_to_chars_is_unsignedIyEE, @object
+	.size	_ZNSt8__detail30__integer_to_chars_is_unsignedIyEE, 1
+_ZNSt8__detail30__integer_to_chars_is_unsignedIyEE:
+	.byte	1
+	.type	_ZSt12__is_ratio_vISt5ratioILl1ELl1000000000EEE, @object
+	.size	_ZSt12__is_ratio_vISt5ratioILl1ELl1000000000EEE, 1
+_ZSt12__is_ratio_vISt5ratioILl1ELl1000000000EEE:
+	.byte	1
+	.type	_ZSt12__is_ratio_vISt5ratioILl1ELl1EEE, @object
+	.size	_ZSt12__is_ratio_vISt5ratioILl1ELl1EEE, 1
+_ZSt12__is_ratio_vISt5ratioILl1ELl1EEE:
+	.byte	1
+	.type	_ZSt12__is_ratio_vISt5ratioILl1000000ELl1EEE, @object
+	.size	_ZSt12__is_ratio_vISt5ratioILl1000000ELl1EEE, 1
+_ZSt12__is_ratio_vISt5ratioILl1000000ELl1EEE:
+	.byte	1
+	.type	_ZSt12__is_ratio_vISt5ratioILl1000000000ELl1EEE, @object
+	.size	_ZSt12__is_ratio_vISt5ratioILl1000000000ELl1EEE, 1
+_ZSt12__is_ratio_vISt5ratioILl1000000000ELl1EEE:
+	.byte	1
+	.hidden	DW.ref._ZTIN10__cxxabiv115__forced_unwindE
+	.weak	DW.ref._ZTIN10__cxxabiv115__forced_unwindE
+	.section	.data.rel.local.DW.ref._ZTIN10__cxxabiv115__forced_unwindE,"awG",@progbits,DW.ref._ZTIN10__cxxabiv115__forced_unwindE,comdat
+	.align 8
+	.type	DW.ref._ZTIN10__cxxabiv115__forced_unwindE, @object
+	.size	DW.ref._ZTIN10__cxxabiv115__forced_unwindE, 8
+DW.ref._ZTIN10__cxxabiv115__forced_unwindE:
+	.quad	_ZTIN10__cxxabiv115__forced_unwindE
+	.hidden	DW.ref.__gxx_personality_v0
+	.weak	DW.ref.__gxx_personality_v0
+	.section	.data.rel.local.DW.ref.__gxx_personality_v0,"awG",@progbits,DW.ref.__gxx_personality_v0,comdat
+	.align 8
+	.type	DW.ref.__gxx_personality_v0, @object
+	.size	DW.ref.__gxx_personality_v0, 8
+DW.ref.__gxx_personality_v0:
+	.quad	__gxx_personality_v0
+	.globl	__gxx_personality_v0
+	.ident	"GCC: (Ubuntu 14.2.0-4ubuntu2~24.04) 14.2.0"
+	.section	.note.GNU-stack,"",@progbits
+	.section	.note.gnu.property,"a"
+	.align 8
+	.long	1f - 0f
+	.long	4f - 1f
+	.long	5
+0:
+	.string	"GNU"
+1:
+	.align 8
+	.long	0xc0000002
+	.long	3f - 2f
+2:
+	.long	0x3
+3:
+	.align 8
+4:
