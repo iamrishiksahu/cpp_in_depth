@@ -10,12 +10,24 @@ int main()
 {
     class Parent
     {
+      public:
+        Parent(int a) : set_{a}
+        {
+            std::cout << "Parent\n";
+        }
+
+      private:
+        int set_;
+    };
+
+    class Child : public Parent
+    {
     };
 
     class SingleData
     {
         char c;
-        int a;
+        int  a;
 
       public:
         SingleData(char cx)
@@ -32,11 +44,11 @@ int main()
         SingleData(const SingleData &sd) = delete;
         SingleData(SingleData &&sd_mv)   = default;
 
-            SingleData& operator +(SingleData& sd)
-            {
-                sd.a = this->a + sd.a;
-                return sd;
-            }
+        SingleData &operator+(SingleData &sd)
+        {
+            sd.a = this->a + sd.a;
+            return sd;
+        }
     };
 
     std::cout << sizeof(Parent) << std::endl;
@@ -58,8 +70,6 @@ int main()
     SingleData ssx{'b', 23};
 
     sst + ssx;
-
-
 
     return 0;
 }
