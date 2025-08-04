@@ -1,0 +1,1 @@
+add_executable(trading_strategy complete_strategy_engine.cpp)

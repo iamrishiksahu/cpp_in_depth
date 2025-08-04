@@ -6,7 +6,7 @@
 #include <stdint.h>
 #include <string>
 
-int main()
+int start()
 {
     class Parent
     {

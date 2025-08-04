@@ -1,1 +1,0 @@
-add_executable(oop main.cpp major_operator_overloading_syntax.cpp)

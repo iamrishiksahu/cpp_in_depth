@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <memory>
 
 class Parent
 {
@@ -37,7 +38,7 @@ class Child_3 : public Parent
   public:
     Child_3(int a) : Parent(a) {};
 
-  private:
+  // private:
     std::vector<int> v_; // 24 byte
     // vector is always 8+8+8 = 24 byte in the stack regardless the size.
     // because the contents are allocated on the heap
@@ -50,6 +51,12 @@ int run()
     std::cout << sizeof(Child) << "\n";   // => 16 { 16 byte + 0 byte padding }
     std::cout << sizeof(Child_2) << "\n"; // => 24 { 17 byte + 7 byte padding }
     std::cout << sizeof(Child_3) << "\n"; // => 32 { 32 byte + 0 byte padding }
+
+    std::unique_ptr<int> p;
+    *p = 10;
+
+
+    std::unique_ptr<Child_3> c;
 
     /**
      * The padding is applied by the compiler for alignment

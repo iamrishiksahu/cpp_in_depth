@@ -15,6 +15,5 @@ add_executable(Rishik main.cpp)
 
 add_subdirectory(second)
 add_subdirectory(tests)
-add_subdirectory(multithreading)
+add_subdirectory(multithreading/trading_strategy_engine)
 add_subdirectory(scribling)
-add_subdirectory(oop)
