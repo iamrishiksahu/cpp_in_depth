@@ -1,21 +1,77 @@
 #include <benchmark/benchmark.h>
 
-static void BM_StringCreation(benchmark::State &state)
+struct S10 {
+    int doWork() { return 10; }
+};
+
+struct S9 {
+    S10 member;
+    int doWork() { return member.doWork(); }
+};
+
+struct S8 {
+    S9 member;
+    int doWork() { return member.doWork(); }
+};
+
+struct S7 {
+    S8 member;
+    int doWork() { return member.doWork(); }
+};
+
+struct S6 {
+    S7 member;
+    int doWork() { return member.doWork(); }
+};
+
+struct S5 {
+    S6 member;
+    int doWork() { return member.doWork(); }
+};
+
+struct S4 {
+    S5 member;
+    int doWork() { return member.doWork(); }
+};
+
+struct S3 {
+    S4 member;
+    int doWork() { return member.doWork(); }
+};
+
+struct S2 {
+    S3 member;
+    int doWork() { return member.doWork(); }
+};
+
+struct S1 {
+    S2 member;
+    int doWork() { return member.doWork(); }
+};
+
+static void BM_NestedCallChain(benchmark::State& state) {
+    for (auto _ : state) {
+        S1 top_level_object;
+        int result = top_level_object.doWork();
+        benchmark::DoNotOptimize(result);
+    }
+}
+BENCHMARK(BM_NestedCallChain);
+
+static void caller()
+{
+    int a = 10;
+}
+static void BM_Normal(benchmark::State &state)
 {
     for (auto _ : state)
-        std::string empty_string;
+    {
+        caller();
+        int a = 10;
+    }
 }
+BENCHMARK(BM_Normal);
 
-// Register the function as a benchmark
-BENCHMARK(BM_StringCreation);
 
-// Define another benchmark
-static void BM_StringCopy(benchmark::State &state)
-{
-    std::string x = "hello";
-    for (auto _ : state)
-        std::string copy(x);
-}
-BENCHMARK(BM_StringCopy);
 
 BENCHMARK_MAIN();
