@@ -11,9 +11,7 @@ add_executable(Rishik main.cpp)
 # set(CMAKE_CXX_STANDARD_REQUIRED ON)
 #set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++20")
 
-
-
-add_subdirectory(second)
+add_subdirectory(assembly_tests)
 add_subdirectory(tests)
 add_subdirectory(multithreading/trading_strategy_engine)
 add_subdirectory(benchmarks)
